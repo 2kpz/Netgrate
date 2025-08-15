@@ -3,34 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lunar</title>
-  <link rel="stylesheet" href="static/styles.css"> <!-- Absolute path to CSS -->
+  <title>test</title>
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <header class="navbar fade-in">
-    <div class="navbar-logo">Lunar</div>
-    <nav class="navbar-links">
-      <a href="#">Information</a>
-      <a href="#">Recent Breaches</a>
-      <a href="#">Announcements</a>
     </nav>
   </header>
-
-  <!-- Hero Section -->
   <section class="hero fade-in">
     <div class="hero-content">
-      <h1>Lunar</h1>
-      <p>A specialized chatting application utilized by 300 people worldwide, paired with our custom OSINT panel, enabling you to locate anyone.</p>
       <div class="hero-buttons">
         <!-- Form for executing the Go script -->
         <form action="/" method="POST" style="display: inline;">
           <input type="hidden" name="scriptPath" value="/scripts/send_discord.go">
           <button type="submit" class="btn primary-btn">Launch Chat Application</button>
         </form>
-        <a href="#" class="btn secondary-btn">Browse OSINT</a>
       </div>
     </div>
   </section>
 </body>
+
 </html>
